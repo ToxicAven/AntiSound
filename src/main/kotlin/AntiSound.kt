@@ -45,6 +45,7 @@ internal object AntiSound: PluginModule(
                             if (debug) MessageSendHelper.sendWarningMessage("Cancelled ender dragon")
                         }
                     }
+                    
                     1038 -> {
                         if (endPortal) {
                             it.cancel()
